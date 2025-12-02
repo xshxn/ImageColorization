@@ -4,9 +4,9 @@ This project implements a **Denoising Diffusion Probabilistic Model (DDPM)** to 
 
 ## Results
 
-| Input (Grayscale) | Output (Generated Color) | Ground Truth |
-| :---: | :---: | :---: |
-| ![Input](path/to/input_gray.png) | ![Output](path/to/output_color.png) | ![Real](path/to/ground_truth.png) |
+
+![Model Output](sample.png)
+*Figure 1: Comparison of Original Ground Truth, Grayscale Input, and the AI's predicted colorization.*
 
 > *Note: The model demonstrates the ability to infer correct semantic colors (e.g., BMO is green, Finn's hat is white) solely from grayscale inputs.*
 
@@ -76,3 +76,11 @@ Training
 To retrain the model from scratch:
 
 python train.py --epochs 12 --batch_size 2 --accumulate 4
+
+
+References
+DDPM: Ho, J., Jain, A., & Abbeel, P. (2020). Denoising Diffusion Probabilistic Models.
+
+DDIM: Song, J., Meng, C., & Ermon, S. (2020). Denoising Diffusion Implicit Models.
+
+Cosine Schedule: Nichol, A., & Dhariwal, P. (2021). Improved Denoising Diffusion Probabilistic Models.
