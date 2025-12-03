@@ -5,6 +5,8 @@
     Your browser does not support the video tag.
 </video>
 
+[Video on yotube](https://www.youtube.com/watch?v=eV6tJy8mDlk)
+
 
 ## **1. Introduction**
 Image colorization is the task of converting a grayscale image into a plausible color version by predicting color information for each pixel. It is widely used in:
